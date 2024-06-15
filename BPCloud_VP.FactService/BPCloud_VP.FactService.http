@@ -1,0 +1,6 @@
+@BPCloud_VP.FactService_HostAddress = http://localhost:5065
+
+GET {{BPCloud_VP.FactService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@BPCloud_VP.SupportDeskService_HostAddress = http://localhost:5255
+
+GET {{BPCloud_VP.SupportDeskService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

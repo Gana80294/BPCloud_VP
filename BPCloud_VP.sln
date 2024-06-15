@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPCloud_VP.APIGateWay", "BPCloud_VP.APIGateWay\BPCloud_VP.APIGateWay.csproj", "{10800AE4-E849-4376-B078-D480BB13C8F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPCloud_VP.AuthenticationService", "BPCloud_VP.AuthenticationService\BPCloud_VP.AuthenticationService.csproj", "{CDC0BBD9-BADB-47F6-ABC5-0ABB0C6EEDB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPCloud_VP.FactService", "BPCloud_VP.FactService\BPCloud_VP.FactService.csproj", "{B593131D-1F4D-45BE-AB6A-857A06A6D812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPCloud_VP.ReportService", "BPCloud_VP.ReportService\BPCloud_VP.ReportService.csproj", "{8CE74C13-1397-43A4-ADAE-B108D32A0ABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPCloud_VP.SupportDeskService", "BPCloud_VP.SupportDeskService\BPCloud_VP.SupportDeskService.csproj", "{4A4FE305-2640-4D7D-B366-B679AE1DDA4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPCloud_VP.POService", "BPCloud_VP.POService\BPCloud_VP.POService.csproj", "{425F7415-C4FE-4760-804C-D585F2A24573}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10800AE4-E849-4376-B078-D480BB13C8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10800AE4-E849-4376-B078-D480BB13C8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10800AE4-E849-4376-B078-D480BB13C8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10800AE4-E849-4376-B078-D480BB13C8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC0BBD9-BADB-47F6-ABC5-0ABB0C6EEDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC0BBD9-BADB-47F6-ABC5-0ABB0C6EEDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC0BBD9-BADB-47F6-ABC5-0ABB0C6EEDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC0BBD9-BADB-47F6-ABC5-0ABB0C6EEDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B593131D-1F4D-45BE-AB6A-857A06A6D812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B593131D-1F4D-45BE-AB6A-857A06A6D812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B593131D-1F4D-45BE-AB6A-857A06A6D812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B593131D-1F4D-45BE-AB6A-857A06A6D812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE74C13-1397-43A4-ADAE-B108D32A0ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE74C13-1397-43A4-ADAE-B108D32A0ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE74C13-1397-43A4-ADAE-B108D32A0ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE74C13-1397-43A4-ADAE-B108D32A0ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4FE305-2640-4D7D-B366-B679AE1DDA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4FE305-2640-4D7D-B366-B679AE1DDA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4FE305-2640-4D7D-B366-B679AE1DDA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4FE305-2640-4D7D-B366-B679AE1DDA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{425F7415-C4FE-4760-804C-D585F2A24573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425F7415-C4FE-4760-804C-D585F2A24573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425F7415-C4FE-4760-804C-D585F2A24573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425F7415-C4FE-4760-804C-D585F2A24573}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1675664A-320A-4FB6-9534-D88BAA665D86}
+	EndGlobalSection
+EndGlobal
