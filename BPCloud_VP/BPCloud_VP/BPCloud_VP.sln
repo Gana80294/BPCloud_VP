@@ -1,0 +1,129 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPCloud_VP.APIGateWay", "BPCloud_VP.APIGateWay\BPCloud_VP.APIGateWay.csproj", "{1D92AC88-D735-415D-9655-218656FECF16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPCloud_VP.AuthenticatioService", "BPCloud_VP.AuthenticatioService\BPCloud_VP.AuthenticatioService.csproj", "{3759B48A-F7A1-455D-9582-F8320704809E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPCloud_VP.FactService", "BPCloud_VP.FactService\BPCloud_VP.FactService.csproj", "{94DFB504-C1FB-43B2-A3D8-23834270CF77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPCloud_VP.ReportService", "BPCloud_VP.ReportService\BPCloud_VP.ReportService.csproj", "{4819C342-1804-4247-8415-B7BE03E2DECB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPCloud_VP_POService", "BPCloud_VP_POService\BPCloud_VP_POService.csproj", "{5D915909-3FF6-41D8-855B-7933B515A8A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPCloud_VP.SupportDeskService", "BPCloud_VP.SupportDeskService\BPCloud_VP.SupportDeskService.csproj", "{6495CC12-0B04-4C2F-9357-46954A1D9F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPCloud_VP.AttachmentMigration", "BPCloud_VP.AttachmentMigration\BPCloud_VP.AttachmentMigration.csproj", "{593A08AB-930C-481D-8EC2-1E9E11935409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPCloud_VP.AttachmentMigrationService", "BPCloud_VP.AttachmentMigrationService\BPCloud_VP.AttachmentMigrationService.csproj", "{F4E55F61-E1EC-4202-9B48-17DABE2C2D83}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BPCloud_VP.AttachmentMigrationSetup", "BPCloud_VP.AttachmentMigrationSetup\BPCloud_VP.AttachmentMigrationSetup.vdproj", "{98789AB8-70BA-4670-9479-45FBFB832753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPCloud_VP.MailReminder", "BPCloud_VP.MailReminder\BPCloud_VP.MailReminder.csproj", "{235B4A1A-A729-44A4-99AD-BF3AE1EC7A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPCloud_VP.MailReminder.Service", "BPCloud_VP.MailReminder.Service\BPCloud_VP.MailReminder.Service.csproj", "{E20BD04D-332D-408A-B5F3-FA6A5D166899}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BPCloud_VP.MailReminder.Setup", "BPCloud_VP.MailReminder.Setup\BPCloud_VP.MailReminder.Setup.vdproj", "{66300AA7-C18F-4724-91E5-AFC84E2F06D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D92AC88-D735-415D-9655-218656FECF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D92AC88-D735-415D-9655-218656FECF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D92AC88-D735-415D-9655-218656FECF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D92AC88-D735-415D-9655-218656FECF16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3759B48A-F7A1-455D-9582-F8320704809E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3759B48A-F7A1-455D-9582-F8320704809E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3759B48A-F7A1-455D-9582-F8320704809E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3759B48A-F7A1-455D-9582-F8320704809E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94DFB504-C1FB-43B2-A3D8-23834270CF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94DFB504-C1FB-43B2-A3D8-23834270CF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94DFB504-C1FB-43B2-A3D8-23834270CF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94DFB504-C1FB-43B2-A3D8-23834270CF77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4819C342-1804-4247-8415-B7BE03E2DECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4819C342-1804-4247-8415-B7BE03E2DECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4819C342-1804-4247-8415-B7BE03E2DECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4819C342-1804-4247-8415-B7BE03E2DECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D915909-3FF6-41D8-855B-7933B515A8A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D915909-3FF6-41D8-855B-7933B515A8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D915909-3FF6-41D8-855B-7933B515A8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D915909-3FF6-41D8-855B-7933B515A8A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6495CC12-0B04-4C2F-9357-46954A1D9F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6495CC12-0B04-4C2F-9357-46954A1D9F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6495CC12-0B04-4C2F-9357-46954A1D9F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6495CC12-0B04-4C2F-9357-46954A1D9F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593A08AB-930C-481D-8EC2-1E9E11935409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593A08AB-930C-481D-8EC2-1E9E11935409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593A08AB-930C-481D-8EC2-1E9E11935409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593A08AB-930C-481D-8EC2-1E9E11935409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E55F61-E1EC-4202-9B48-17DABE2C2D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E55F61-E1EC-4202-9B48-17DABE2C2D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E55F61-E1EC-4202-9B48-17DABE2C2D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E55F61-E1EC-4202-9B48-17DABE2C2D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98789AB8-70BA-4670-9479-45FBFB832753}.Debug|Any CPU.ActiveCfg = Debug
+		{98789AB8-70BA-4670-9479-45FBFB832753}.Release|Any CPU.ActiveCfg = Release
+		{235B4A1A-A729-44A4-99AD-BF3AE1EC7A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235B4A1A-A729-44A4-99AD-BF3AE1EC7A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235B4A1A-A729-44A4-99AD-BF3AE1EC7A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235B4A1A-A729-44A4-99AD-BF3AE1EC7A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20BD04D-332D-408A-B5F3-FA6A5D166899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20BD04D-332D-408A-B5F3-FA6A5D166899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20BD04D-332D-408A-B5F3-FA6A5D166899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20BD04D-332D-408A-B5F3-FA6A5D166899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66300AA7-C18F-4724-91E5-AFC84E2F06D3}.Debug|Any CPU.ActiveCfg = Debug
+		{66300AA7-C18F-4724-91E5-AFC84E2F06D3}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCEA0A03-22B0-4478-BD75-BA772047CE07}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://exalca.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BPCloud_VP.APIGateWay\\BPCloud_VP.APIGateWay.csproj
+		SccProjectName1 = BPCloud_VP.APIGateWay
+		SccLocalPath1 = BPCloud_VP.APIGateWay
+		SccProjectUniqueName2 = BPCloud_VP.AuthenticatioService\\BPCloud_VP.AuthenticatioService.csproj
+		SccProjectName2 = BPCloud_VP.AuthenticatioService
+		SccLocalPath2 = BPCloud_VP.AuthenticatioService
+		SccProjectUniqueName3 = BPCloud_VP.FactService\\BPCloud_VP.FactService.csproj
+		SccProjectName3 = BPCloud_VP.FactService
+		SccLocalPath3 = BPCloud_VP.FactService
+		SccProjectUniqueName4 = BPCloud_VP.ReportService\\BPCloud_VP.ReportService.csproj
+		SccProjectName4 = BPCloud_VP.ReportService
+		SccLocalPath4 = BPCloud_VP.ReportService
+		SccProjectUniqueName5 = BPCloud_VP_POService\\BPCloud_VP_POService.csproj
+		SccProjectName5 = BPCloud_VP_POService
+		SccLocalPath5 = BPCloud_VP_POService
+		SccProjectUniqueName6 = BPCloud_VP.SupportDeskService\\BPCloud_VP.SupportDeskService.csproj
+		SccProjectName6 = BPCloud_VP.SupportDeskService
+		SccLocalPath6 = BPCloud_VP.SupportDeskService
+		SccProjectUniqueName7 = BPCloud_VP.AttachmentMigration\\BPCloud_VP.AttachmentMigration.csproj
+		SccProjectName7 = BPCloud_VP.AttachmentMigration
+		SccLocalPath7 = BPCloud_VP.AttachmentMigration
+		SccProjectUniqueName8 = BPCloud_VP.AttachmentMigrationService\\BPCloud_VP.AttachmentMigrationService.csproj
+		SccProjectName8 = BPCloud_VP.AttachmentMigrationService
+		SccLocalPath8 = BPCloud_VP.AttachmentMigrationService
+		SccProjectUniqueName9 = BPCloud_VP.AttachmentMigrationSetup\\BPCloud_VP.AttachmentMigrationSetup.vdproj
+		SccProjectName9 = BPCloud_VP.AttachmentMigrationSetup
+		SccLocalPath9 = BPCloud_VP.AttachmentMigrationSetup
+		SccProjectUniqueName10 = BPCloud_VP.MailReminder\\BPCloud_VP.MailReminder.csproj
+		SccProjectName10 = BPCloud_VP.MailReminder
+		SccLocalPath10 = BPCloud_VP.MailReminder
+		SccProjectUniqueName11 = BPCloud_VP.MailReminder.Service\\BPCloud_VP.MailReminder.Service.csproj
+		SccProjectName11 = BPCloud_VP.MailReminder.Service
+		SccLocalPath11 = BPCloud_VP.MailReminder.Service
+		SccProjectUniqueName12 = BPCloud_VP.MailReminder.Setup\\BPCloud_VP.MailReminder.Setup.vdproj
+		SccProjectName12 = BPCloud_VP.MailReminder.Setup
+		SccLocalPath12 = BPCloud_VP.MailReminder.Setup
+	EndGlobalSection
+EndGlobal
